@@ -14,5 +14,7 @@ public class Mahasiswa {
 	this.jumlah_waktu;
 	}
 
-
+	public double hitungLintasan(Lapangan panggil){
+	return panggil.kelilingLapangan() * jumlahPutaran;
+	}
 }
