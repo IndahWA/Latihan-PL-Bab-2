@@ -15,6 +15,16 @@ public class MahasiswaLapangan {
 
 	System.out.println();
 	
+	Lapangan luas = new lapangan(pjg, lebar);
+	System.out.print("Masukkan panjang lapangan	: ");
+	pjg = in.nextDouble();
+	System.out.print("Masukkan lebar lapangan	: ");
+	lebar = in.nextDouble();
+	luas = new Lapangan (pjg, lebar);
+	System.out.println();
+
+
+
 
 
     }
