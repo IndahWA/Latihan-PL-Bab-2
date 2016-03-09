@@ -41,6 +41,22 @@ public class MahasiswaLapangan {
 		System.out.println();
 	}
 
+	for (int i = 0; i < jumlah_mahasiswa; i++){
+            System.out.println(data [i].Nama()+" \t\t "+data[i].hitungLintasan(luas));
+        }
+	double tercepat;
+        int inc = 0;
+        tercepat = data[0].hitungRata();
+        
+        for (int i = 0; i < jumlah_mahasiswa; i++){
+            if (tercepat > data[i].hitungRata()){
+                tercepat = data[i].hitungRata();
+                inc++;
+            }
+        }
+
+        System.out.println("");
+        System.out.println(data[inc].Nama()+"   // Tercepat");
 
     }
 }
