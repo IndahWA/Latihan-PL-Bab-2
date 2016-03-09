@@ -17,4 +17,12 @@ public class Mahasiswa {
 	public double hitungLintasan(Lapangan panggil){
 	return panggil.kelilingLapangan() * jumlahPutaran;
 	}
+
+	public double hitungRata(){
+	return jumlah_waktu / jumlahPutaran;
+	}
+
+	public String Nama(){
+	return nama_mahasiswa;
+	}
 }
